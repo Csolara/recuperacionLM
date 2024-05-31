@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<button onclick="introducirPalabra()">Introducir palabra</button>
+
+<p>Intentos: 0</p>
+
+<button onclick="tiempo()">Tiempo</button>
+
+<div id="palabra">Palabra: </div>
+
+<button onclick="Letra()">Letra</button>
+
+<p>Historial</p>
+
+<table>
+	<tr>
+		<td><b>Palabra</b></td>
+		<td><b>Intentos</b></td>
+		<td><b>Tiempo</b></td>
+	</tr>
+	<tr>
+		<td id="letra"></td>
+		<td id="intentos"></td>
+		<td id="tiempo">00:00</td>
+	</tr>	
+</table>
+
+<script src="js.js"></script>
+
+</body>
+</html>
